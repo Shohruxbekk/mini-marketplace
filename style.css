@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative
+}
+nav {
+    width: 100vw;
+    height: 64px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    align-items: center;
+    text-indent: 20px;
+     
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    padding-right: 20px;
+    font-weight: 100;
+    font-size: 18px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+#Products{
+    margin-top: 80px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#products {
+    margin-top: 50px;
+width: 100vw;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   
+}
+.loading{
+    text-align: center;
+    margin: 0 auto;
+ 
+}
+img {
+    width: 90%;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.card {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  background: rgb(243, 243, 243);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    
+    margin: 0 auto;
+}
+
+@media(min-width:700px) {
+    #products {
+
+        display: grid;
+        
+        grid-template-columns:1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+       
+    }
+img {
+   
+    height: 400px;
+    
+
+}
+.card{
+   
+    border: 1px solid rgb(221, 221, 221); 
+}}
+.totalAmount{
+    width: 90vw;
+    height: auto;
+    background: rgb(243, 243, 243);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: end;
+    margin-top: 20px;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+
+
