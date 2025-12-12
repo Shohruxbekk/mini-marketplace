@@ -5,4 +5,3 @@ Bundan oldin huddi shunday websayt yaratgan edim. Ammo React.js va vanilla.jsni 
 
 
 
-![My Image](public/Screenshot 2025-12-12 at 14.08.53.png)
