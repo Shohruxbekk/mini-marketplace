@@ -1,4 +1,4 @@
-CLick internship uchun loyiha
+Click internship uchun loyiha
 
 
 Asildinov Shoxrux 
